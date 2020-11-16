@@ -1,0 +1,26 @@
+{
+  "name": "api-wallet",
+  "version": "1.0.0",
+  "description": "Proyecto para poner en practica lo aprendido en el curso de Typescript + NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimelorobert/typescript-project.git"
+  },
+  "keywords": [
+    "Typescript",
+    "NodeJS"
+  ],
+  "author": "Robert Hernandez <airbusjayrobert@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimelorobert/typescript-project/issues"
+  },
+  "homepage": "https://github.com/dimelorobert/typescript-project#readme",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  }
+}
