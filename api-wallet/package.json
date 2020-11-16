@@ -4,7 +4,10 @@
   "description": "Proyecto para poner en practica lo aprendido en el curso de Typescript + NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/server.ts",
+    "start:dev": "ts-node-dev --respawn ./src/server.ts",
+    "lint": "eslint src/* --fix"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,17 @@
   },
   "homepage": "https://github.com/dimelorobert/typescript-project#readme",
   "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0",
     "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-vue": "^7.1.0"
   }
 }
